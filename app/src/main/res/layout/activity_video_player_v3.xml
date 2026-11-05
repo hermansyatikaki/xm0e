@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/player_shell" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@android:color/black" android:clickable="true" android:focusable="true">
+    <androidx.media3.ui.PlayerView android:id="@+id/player_view" android:layout_width="match_parent" android:layout_height="match_parent" android:clickable="false" android:focusable="false" android:keepScreenOn="true" app:show_buffering="never" app:use_controller="false" />
+    <androidx.compose.ui.platform.ComposeView android:id="@+id/player_v3_compose" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <View android:id="@+id/player_v3_anchor_quality" android:layout_width="1dp" android:layout_height="1dp" android:layout_gravity="top|end" android:layout_marginTop="64dp" android:layout_marginEnd="128dp" />
+    <View android:id="@+id/player_v3_anchor_speed" android:layout_width="1dp" android:layout_height="1dp" android:layout_gravity="top|end" android:layout_marginTop="64dp" android:layout_marginEnd="216dp" />
+</FrameLayout>
